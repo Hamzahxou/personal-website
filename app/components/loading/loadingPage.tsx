@@ -6,8 +6,8 @@ export default function LoadingPage() {
       className="fixed bg-secondary top-0 left-0 w-screen h-screen flex justify-center items-center z-50 select-none"
       initial={{ y: 0 }}
       animate={{
-        y: -1000,
-        transition: { delay: 3, duration: 1 },
+        y: -2000,
+        transition: { delay: 3, duration: 2 },
         transitionEnd: { display: "none" },
       }}
     >
